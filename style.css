@@ -1,6 +1,6 @@
 .main {
   height: 100vh;
-  background: url("../main/img/showcase.jpg") center center/cover; }
+  background: url("img/showcase.jpg") center center/cover; }
   .main header {
     display: flex;
     width: 100%;
