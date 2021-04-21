@@ -1,3 +1,5 @@
+body {
+  margin: 0%; }
 .main {
   height: 100vh;
   background: url("img/showcase.jpg") center center/cover; }
@@ -12,6 +14,7 @@
       align-items: center;
       justify-content: space-between; }
       .main header .navigation .logo {
+        margin: 20px;
         height: 200px; }
       .main header .navigation .nav-menu {
         display: flex;
