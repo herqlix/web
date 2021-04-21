@@ -905,19 +905,19 @@ footer {
 
 @media(max-width:375px) {
     .main {
-        header {
+        .main header {
             width: 100%;
             height: 18vh;
-            .navigation {
+            .main header .navigation {
                 display: block;
-                .logo {
+                .main header .navigation .logo {
                     margin: 20px;
                     height: 50px;
                     display: flex;
                     justify-content: center;
                 }
 
-                .nav-menu {
+                .main header .navigation .nav-menu {
                     display: flex;
                     justify-content: center;
                 }
@@ -932,76 +932,76 @@ footer {
         width: 100%;
         padding-left: 8px;
         padding-top: 150px;
-        .iam{
+        .name .iam{
             font-size: 19px;
             
         }
-        .what{
+        .name .what{
             font-size: 20px;
         }
     }
     .specialize{
         height: 1600px;
-        .note{
+        .specialize .note{
             padding: 10px;
             justify-content: center;
             display: flex;
             padding-left: 20px;
             padding-right: 20px;
         }
-        .forms{
+        .specialize .forms{
             display: block;
-            .concepting{
+            .specialize .forms .concepting{
                 width: 100%;
-                .icon{
+                 .specialize .forms .concepting .icon{
                     margin-bottom: 20px;
                 }
-                b{
+                 .specialize .forms .concepting b{
                     font-size: 25px;
                 }
-                p{
+                .specialize .forms .concepting p{
                     padding-left: 20px;
                     padding-right: 20px;
                     font-size: 20px;
                 }
             }
-            .uiux {
+            .specialize .forms .uiux {
                 width: 100%;
                 .icon{
                     margin-bottom: 20px;
                 }
-                b{
+               .specialize .forms .uiux  b{
                     font-size: 25px;
                 }
-                p{
+               .specialize .forms .uiux  p{
                     padding-left: 20px;
                     padding-right: 20px;
                     font-size: 20px;
                 }
             }
-            .visual-design{
+           .specialize .forms  .visual-design{
                 width: 100%;
                 .icon{
                     margin-bottom: 20px;
                 }
-                b{
+                .specialize .forms  .visual-design b{
                     font-size: 25px;
                 }
-                p{
+               .specialize .forms  .visual-design  p{
                     padding-left: 20px;
                     padding-right: 20px;
                     font-size: 20px;
                 }
             }
-            .interaction {
+            .specialize .forms  .interaction {
                 width: 100%;
-                .icon{
+                .specialize .forms  .interaction .icon{
                     margin-bottom: 20px;
                 }
-                b{
+               .specialize .forms  .interaction  b{
                     font-size: 25px;
                 }
-                p{
+               .specialize .forms  .interaction  p{
                     padding-left: 20px;
                     padding-right: 20px;
                     font-size: 20px;
@@ -1012,35 +1012,35 @@ footer {
     .attainment{
         display: block;
         height: 1600px;
-        .clients{
+       .attainment .clients{
             width: 100%;
         }
-        .awards{
+      .attainment  .awards{
             width: 100%;
         }
-        .hours {
+      .attainment  .hours {
             width: 100%;
         }
-        .projects {
+       .attainment .projects {
             width: 100%;
         }
     }
     .process{
         height: 1600px;
-        .note{
+        .process .note{
             padding: 10px;
             justify-content: center;
             display: flex;
             padding-left: 20px;
             padding-right: 20px;
         }
-        .spec{
+       .process .spec{
             display: block;
         }
 
     }
     footer{
-        p{
+       footer p{
             padding: 10px;
             font-size: 15px;
         }
@@ -1048,18 +1048,18 @@ footer {
 
     .contact{
         height: 89vh;
-        form{
+       .contact form{
             margin-left: 10px;
             margin-right: 10px;
             width: 100%; 
-            .info{
+           .contact form .info{
                 display: block;
             }
-            .numb{
+           .contact form .numb{
                 display: block;
             }
         }
-        button{
+       .contact button{
             margin-left: 10px; 
         }
     }
@@ -1074,51 +1074,51 @@ footer {
     }
     .aboutt{
         height: 1600px;
-        .text{
-            p{
+        .aboutt .text{
+           .aboutt .text p{
                 padding: 20px;
             }
         }
-        .note{
+        .aboutt .note{
             padding: 10px;
             justify-content: center;
             display: flex;
             padding-left: 20px;
             padding-right: 20px;
         }
-        .about{
+       .aboutt .about{
             display: block;
-            .ttext{
+             .aboutt .about .ttext{
                 width: 100%;
             }
         }
     }
     .awwards{
         margin: 10px;
-        .award-one{
+       .awwards .award-one{
             width: 30%;
-            b{
+           .awwards .award-one b{
                 font-size: 15px;
             }
-            p{
+           .awwards .award-one p{
                 font-size: 15px;
             }
         }
-        .award-two{
+       .awwards .award-two{
             width: 30%;
-            b{
+          .awwards .award-two  b{
                 font-size: 15px;
             }
-            p{
+           .awwards .award-two p{
                 font-size: 15px;
             }
         }
-        .award-three{
+       .awwards  .award-three{
             width: 30%;
-            b{
+            .awwards  .award-three b{
                 font-size: 15px;
             }
-            p{
+            .awwards  .award-three p{
                 font-size: 15px;
             }
         }
@@ -1129,29 +1129,29 @@ footer {
     }
     .testimonials{
         height: 1600px;
-        .reviews{
+       .testimonials .reviews{
             display: block;
-            .firstt{
+            .testimonials .reviews .firstt{
                 width: 100%;
             }
-            .secondd{
+           .testimonials .reviews .secondd{
                 width: 100%;
             }
-            .thirdd{
+           .testimonials .reviews .thirdd{
                 width: 100%;
             }
-            .fourthh{
+           .testimonials .reviews .fourthh{
                 width: 100%;
             }
         }
     }
     .works{
-        .first{
+         .works .first{
             width: 100%;
             height: 50%;
             display: block;
         }
-        .two {
+        .works .two {
             display: block;
         }
     }
